@@ -1,20 +1,20 @@
 <svg viewBox="0 0 260 150" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="100%" height="100%" fill="#2A2A2A"/>
+  <rect width="100%" height="100%" fill="white"/>
 
-  <!-- D (behind) -->
+  <!-- D (slightly lighter shade) -->
   <path d="M140 25 
            H175 
            C205 25 225 55 225 75 
            C225 95 205 125 175 125 
            H140 Z" 
-        stroke="#4DA6FF" 
+        stroke="#555555" 
         stroke-width="12" 
         fill="none"/>
 
-  <!-- Z (top line shortened to match bottom feel) -->
+  <!-- Z (pure black, on top) -->
   <path d="M40 25 H140 L50 125 H230" 
-        stroke="#EADBC8" 
+        stroke="black" 
         stroke-width="12" 
         fill="none" 
         stroke-linejoin="miter"/>
