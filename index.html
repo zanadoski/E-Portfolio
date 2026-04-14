@@ -39,7 +39,7 @@
                     link__hover-effect--black
                     ">Projects</a>
                 </li>
-                <li class="nav__link">
+                <li class="nav__link" onclick="toggleModal()">
                     <a href="#" class="
                     nav__link--anchor
                     link__hover-effect
@@ -61,7 +61,7 @@
                 <h1 class="title blue">I'm Zana.</h1>
                 <p class="header__para">I’m a <b class="blue">Frontend Software Developer</b> focused on building modern, responsive web applications. I’m passionate about creating clean designs and smooth user experiences that feel intuitive and engaging.
                 <br>
-                Here is a bit more <b class="blue">about me</b>.    
+                Here is a bit more <b class="blue click" onclick="toggleModal()">about me</b>.    
                 </p>
                 <div class="social__list">
                     <a href="https://www.linkedin.com/in/zanadoski/" target="_blank" class="social__link click">
@@ -76,7 +76,7 @@
                 </div>
             </div>
         </header>
-        <button class="mail__btn click">
+        <button class="mail__btn click" onclick="toggleModal()">
             <i class="fa-solid fa-envelope"></i>
         </button>
         <a href="#projects" class="scroll">
@@ -130,6 +130,7 @@
                 </div>
             </div>
             <div class="modal__half modal__contact">
+                 <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>
                 <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
                 <h4 class="modal__sub-title modal__sub-title--contact">I'm currently open to new opportunities.</h4>
                 <form id="contact__form" onsubmit="contact(event)">
@@ -155,7 +156,6 @@
                     Thanks for reaching out! Looking forward to connecting with you soon.
                 </div>
             </div>
-            <i class="fas fa-times modal__exit click"></i>
         </div>
     </section>
     <section id="projects">
